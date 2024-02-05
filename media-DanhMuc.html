@@ -1,0 +1,560 @@
+<!-- develop by ngocbich85hd -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Báo Hải Dương</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="develop/js/html5shiv.min.js"></script>
+    <script src="develop/js/respond.min.js"></script>
+    <![endif]-->
+    <link href="lib-bootrap/css/bootstrap.css" rel="stylesheet">
+    <link href="develop/css/styleMain.css" rel="stylesheet">
+    <link href="develop/fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+<!--Header-->
+<div id="header">
+    <div class="container">
+        <div class="headertop row">
+            <div class="col-lg-7">
+                <ul class="listLinkTop">
+                    <li><a href="#">Hải dương điện tử</a><span>|</span></li>
+                    <li><a href="#">Hải dương văn nghệ</a><span>|</span></li>
+                    <li><a href="#">Hải dương English</a><span>|</span></li>
+                    <li><a href="#">Hải dương media</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <ul class="listshareTop right">
+                    <li><a href="#">Đặt làm trang chủ</a></li>
+                    <!--<li><a href="#" class="dbhd">Đặt báo Hải Dương</a></li>-->
+                    <li><a href="#"><img src="develop/images/share-face.jpg"></a></li>
+                    <li><a href="#"><img src="develop/images/share-twi.jpg"></a></li>
+                    <li><a href="#"><img src="develop/images/share-g.jpg"></a></li>
+                    <li><a href="#"><img src="develop/images/share-youtube.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerCenter row">
+            <div class="col-lg-4 logo">
+                <a href="#"><img src="develop/images/logo-bao.png"> </a>
+            </div>
+            <div class="col-lg-8 advtop">
+                <a href="#"><img src="img-demo/advtop.jpg"></a>
+            </div>
+        </div>
+        <div class="headerMenu menuVideo row">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menuTop" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active home"><a href="#"><img src="develop/images/iconHome.png"> </a></li>
+                            <li><a href="#">Tin thời sự</a></li>
+                            <li><a href="#">Phóng sự</a></li>
+                            <li><a href="#">Tọa đàm</a></li>
+                            <li><a href="#">Phim</a></li>
+
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+
+    </div>
+</div>
+<!--container-->
+<div id="container" class="boxMediaAll">
+    <div class="container">
+        <div class="boxMedia left w100pt videoCatalog">
+            <div class="mediaList left w100pt">
+                <div class="videoBig left">
+                    <iframe width="620" height="410" src="https://www.youtube.com/embed/5ij49E5rvi8"
+                            frameborder="0" allowfullscreen></iframe>
+                    <h3>
+                        <a href="#" title="">Tin nóng 24h: Tai nạn thảm khốc tại Gia Lai, 12 người chết</a>
+                    </h3>
+                    <p id="video-description">
+                        Bị lực lượng chức năng yêu cầu dừng xe, giữ chìa khoá vì vi phạm luật giao thông, hai đối tượng
+                        hung hổ lao đến móc dao tấn công Cảnh sát. Khi bị vây bắt, 2 tên côn đồ đã lao xuống sông Sài
+                        Gòn hòng tìm đường tẩu thoát.<a target="_blank" href="/news-20170724161427478.htm"
+                                                        title="xem thêm"> (đọc thêm)</a>
+                    </p>
+                    <div class="video-tags">
+                        <div class="tag-list">
+                            <span class="tagname"><i class="fa fa-tags"></i> Tags:</span><span class="tags-item"><a
+                                href="/tags-6/tong-hop.htm">tổng hợp</a></span>
+                        </div>
+                    </div>
+                    <div class="share-link">
+                        <div class="video_share fl mgr10">
+                            <div id="btnShareVideoInfo" class="video_share_button">Chia sẻ</div>
+                            <div id="divShareVideoInfo" class="video_share_wrapper" style="display: none;">
+                                <div class="video_share_container">
+                                    <div class="video_close_button"
+                                         onclick="javascript:$('#divShareVideoInfo').hide()"></div>
+                                    <div class="share_item">
+                                        <label for="txt_embedcode">Mã nhúng</label>
+                                        <input type="text"
+                                               value="<iframe  data-keyvideo=&quot;534b5a18192d48d6926652d07cb57169&quot; width=&quot;606&quot; height=&quot;357&quot; src=&quot;http://vcplayer.vcmedia.vn/1.1?_site=dantri&amp;vid=dantri/96a1faf49c/2017/07/24/tancongcanhsat-1500887389150.mp4&amp;_listsuggest=http://wcm.dantri.com.vn/video/zone-2/suggest-videos.htm&amp;autoplay=false&amp;mute=false&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
+                                               size="30" onclick="this.select();" id="txt_embed_blog"
+                                               name="txt_embed_blog">
+                                    </div>
+                                    <div class="share_item">
+                                        <label for="txt_videolink">Link chia sẻ</label>
+
+                                        <input type="text"
+                                               value="http://dantri.com.vn/video/con-do-moc-dao-chong-tra-cong-an-roi-nhay-song-sai-gon-66856.htm"
+                                               size="30" onclick="this.select();" id="txt_link_video"
+                                               name="txt_link_video">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fl mgt5">
+                            <a class="fl chiasefb" target="_blank" style="margin-right: 10px;"
+                               href="http://www.facebook.com/sharer.php?u=http://dantri.com.vn/video-66856.htm"
+                               rel="nofollow">
+                                Chia sẻ <i></i>
+                            </a>
+                            <img src="http://dantricdn.com/web_images/fb_like.png" class="imglikefake hidden">
+                            <div class="fb-like fb_iframe_widget" data-href="http://dantri.com.vn/video-66856.htm"
+                                 data-layout="button_count" data-action="like" data-size="small" data-show-faces="false"
+                                 data-share="false" fb-xfbml-state="rendered"
+                                 fb-iframe-plugin-query="action=like&amp;app_id=830263217081389&amp;container_width=0&amp;href=http%3A%2F%2Fdantri.com.vn%2Fvideo-66856.htm&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;size=small">
+                                <span style="vertical-align: bottom; width: 68px; height: 20px;"><iframe
+                                        name="f1b30d3bf7317bc" width="1000px" height="1000px" frameborder="0"
+                                        allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                        title="fb:like Facebook Social Plugin"
+                                        src="https://www.facebook.com/v2.3/plugins/like.php?action=like&amp;app_id=830263217081389&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FXBwzv5Yrm_1.js%3Fversion%3D42%23cb%3Df145dcd11cbc204%26domain%3Ddantri.com.vn%26origin%3Dhttp%253A%252F%252Fdantri.com.vn%252Ff1f5fd71eae2e5c%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fdantri.com.vn%2Fvideo-66856.htm&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;size=small"
+                                        style="border: none; visibility: visible; width: 68px; height: 20px;"
+                                        class=""></iframe></span></div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <ul class="list-video right">
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row videoOther videoListCatalog">
+            <div class="videoLeft col-lg-12">
+                <div class="lable left w100pt"><a href="#" class="active"> Video mới nhất</a> <a href="#"> Video xem nhiều</a></div>
+                <ul class="list-video left w100pt">
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a1.jpg" alt=""> </a>
+                        <h3><a href="#" title="Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn">
+                            Hội nghị Trung ương 5 thảo luận nhiều vấn đề rất lớn </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a3.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sự cố mất điện sân bay, điện lực nói gì">
+                            Sự cố mất điện sân bay, điện lực nói gì </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="img_video" href="#" title="">
+                            <div class="iconPlay"></div>
+                            <img src="img-demo/a8.jpg" alt=""> </a>
+                        <h3><a href="#" title="Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát">
+                            Sà lan neo đậu dày đặc trên sông Tiền chờ chở cát </a></h3>
+                        <div class="time-day">
+                            <ul class="meta-info-day">
+                                <li>697.720 lượt xem</li>
+                                <li>7 tháng trước</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="videoMore">
+                        <div class="video-paging clearfix" id="video-paging">
+
+                            <a data-type="loadmore">XEM
+                                THÊM</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div id="footer" class="container">
+    <div class="row infoFood">
+        <div class="col-lg-2 logof">
+            <a href="#"><img src="develop/images/logo-bao.png"> </a>
+        </div>
+        <div class="col-lg-7 addbao">
+            <p>Báo điện tử Hải Dương</p>
+            <p>Cơ quan chủ quản: Tỉnh ủy Hải Dương</p>
+            <p>Tổng biên tập: Nguyễn Hải Bình</p>
+            <p>Giấy phép xuất bản số 97/GP-BTTTT do Bộ Thông tin cà Truyền thông cấp ngày 25-2-2016</p>
+            <p>Địa chỉ: Số 10 Đức Minh, phường Thanh Bình, TP Hải Dương</p>
+            <p>Địa chỉ: Số 10 Đức Minh, phường Thanh Bình, TP Hải Dương</p>
+        </div>
+        <div class="col-lg-3 contact">
+            <p>Báo điện tử Hải Dương</p>
+            <p>Cơ quan chủ quản: Tỉnh ủy Hải Dương</p>
+            <p>Tổng biên tập: Nguyễn Hải Bình</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- begin jQuery -->
+<script src="develop/js/jquery.min.js"></script>
+<script src="lib-bootrap/js/bootstrap.js"></script>
+</body>
+</html>
