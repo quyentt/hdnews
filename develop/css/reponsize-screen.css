@@ -491,7 +491,7 @@
 @media screen and (max-width: 640px) {
   .menuTop .nav li {
     float: none !important;
-    width: 50%;
+    width: 100%;
   }
   .infoFood .logof {
     width: 50% !important;
