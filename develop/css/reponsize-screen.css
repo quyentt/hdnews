@@ -411,7 +411,8 @@
     display: none !important;
   }
   .menuTop .dropdown-menu {
-    display: block;
+    /* display: block; */
+    display: none;
     position: initial !important;
     width: 100% !important;
     border: none;
@@ -427,7 +428,9 @@
   }
   .menuTop .nav li {
     float: none !important;
-    width: 33.333333%;
+    /* width: 33.333333%; */
+    width: 100%;
+    padding: 0 15px;
   }
   .menuTop .nav li.home {
     width: 100%;
@@ -445,7 +448,8 @@
     font-weight: 700;
   }
   .menuTop .nav li .dropdown-toggle {
-    display: none;
+    /* display: none; */
+    display: block;
   }
 }
 
